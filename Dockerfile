@@ -6,7 +6,6 @@ MAINTAINER Florian Rusch <dev@florianrusch.de>
 # Updating the system
 RUN apk update && \
     apk upgrade && \
-    apk add bash git unzip && \
     rm -rf /var/cache/apk/* /tmp/* /usr/share/man
 
 
