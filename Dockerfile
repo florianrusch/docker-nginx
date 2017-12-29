@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-MAINTAINER Florian Rusch <dev@florianrusch.de>
+LABEL maintainer="dev@florianrusch.de"
 
 
 # Updating the system
